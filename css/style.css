@@ -4,10 +4,10 @@
 
 
 /* css variables */ 
-@import "./partials/_variables.css";
+@import "./partials/variables.css";
 
 /* import global styling */ 
-@import "./partials/_global.css";
+@import "./partials/global.css";
 
 body{
     overflow-x: hidden;
