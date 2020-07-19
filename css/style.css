@@ -330,8 +330,8 @@ body{
     font: bolder 600 22px/30px var(--roboto);
     border-radius: 14px;
     padding: 2rem 0;
-    width: 16rem;
-    margin: 5rem .5rem;
+    width: 15rem;
+    margin: 5rem .-0.5rem;
     transition: transform 0.3s ease-in-out;
 }
 
