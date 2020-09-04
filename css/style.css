@@ -2,8 +2,8 @@
 /* @font-face */ 
 
 @font-face{
-    font-family: "Roboto";
-    src: '../fonts/Roboto/Roboto-Regular.ttf';
+    font-family: "sans";
+    src: '../fonts/sans/NotoSansJP-Bold.otf';
 }
 
 
@@ -29,13 +29,13 @@ html, body{
    
 
     /* font family variables. */ 
-    --roboto: 'Roboto';
+    --sans: 'sans';
 } 
 
 /* Global Classes */ 
 
 .title-text{
-    font: normal bold 50px/ 72px var(--roboto);
+    font: normal bolder 60px/ 72px ;
 }
 
 .text-uppercase{
@@ -46,7 +46,7 @@ html, body{
 
 .button{
     padding: .8rem 2.2rem;
-    font: normal 500 16px/20px var(--roboto);
+    font: normal 500 16px/20px;
     position: relative;
     border: 3px solid transparent;
     border-radius: 4px;
@@ -90,11 +90,11 @@ html, body{
 
 p.para{
     color: var(--text-color);
-    font: normal 500 16px/ 25px var(--roboto);
+    font: normal 500 16px/ 25px;
 }
 
-.font-roboto{
-    font-family: var(--roboto);
+.font-sans{
+    font-family: var(--sans);
 }
 
 button:focus,
@@ -107,7 +107,7 @@ button:hover
 }
 
 .title-h1{
-    font: normal bold 39px/ 40px var(--roboto);
+    font: normal bold 39px/ 40px;
 }
 
 
@@ -136,7 +136,7 @@ body{
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 500 15px/2px var(--roboto);
+    font: bolder 500 17px/20px;
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--title-color);
@@ -203,7 +203,7 @@ body{
 
 .site-main .about-area .about-title h2 > span{
     display: block;
-    font: normal bold 49px/ 60px var(--roboto);
+    font: normal bold 49px/ 60px;
     letter-spacing: 21px;
 }
 
@@ -283,13 +283,13 @@ body{
 }
 
 .site-main .brand-area .experience-area .years-area .years{
-    font: normal bold 84px/40px var(--roboto);
+    font: normal bolder 84px/40px;
     color: var(--primary-color2);
     z-index: 2;
 }
 
 .site-main .brand-area .experience-area .years-area h2 > span{
-    font: normal 600 22px/30px var(--roboto);
+    font: normal 600 22px/30px;
 }
 
 .site-main .brand-area .experience-area .call-area{
@@ -327,11 +327,11 @@ body{
 
 .site-main > .services-area .services{
     background: rgba(213, 232, 246, 0.973);
-    font: bolder 600 22px/30px var(--roboto);
+    font: bolder 600 22px/30px;
     border-radius: 14px;
     padding: 2rem 0;
     width: 15rem;
-    margin: 5rem .-0.5rem;
+    margin: 5rem -0.5rem;
     transition: transform 0.3s ease-in-out;
 }
 
@@ -339,7 +339,9 @@ body{
     box-shadow: var(--box-shadow);
     transform: scale(1.1);
 }
-
+.site-main .services-area .font-sans{
+    font: bolder 600 30px/35px;  
+}
 
 
 /* End Services Area */ 
@@ -359,7 +361,6 @@ body{
     margin: 2rem 0.5rem;
 }
 .site-main .project-area .myProject .projectText{
-    font: normal bold 30px/40px var(--roboto);
     color: rgb(0, 0, 0);
 }
 
@@ -383,7 +384,7 @@ body{
     margin:1rem 1.7rem;
 }
 .site-main .project-area .myProject-a .projectText-a{
-    font: normal bold 30px/40px var(--roboto);
+    font: normal bold 30px/40px;
     color: rgb(0, 0, 0);
     margin-top:2.99rem ;
 }
@@ -430,7 +431,7 @@ body{
 }
 
 .site-main .about-area .client .about-client h4{
-    font: normal 500 21px/ 20px var(--roboto);
+    font: normal 500 21px/ 20px;
 }
 
 .site-main .about-area .client .about-client p{
@@ -460,7 +461,7 @@ footer.footer-area{
 }
 
 footer.footer-area .social h5{
-    font: normal 500 23px/ 30px var(--roboto);
+    font: normal 500 23px/ 30px;
 }
 
 footer.footer-area .social a > i{
